@@ -1,0 +1,29 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "description": "Calculadora de expressiones por medio de url",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HectorQuinonesBarrios/calculadora-expressiones-draw.git"
+  },
+  "keywords": [
+    "Calculadora",
+    "expressiones",
+    "url",
+    ":v"
+  ],
+  "author": "Hector Quinones Barrios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HectorQuinonesBarrios/calculadora-expressiones-draw/issues"
+  },
+  "homepage": "https://github.com/HectorQuinonesBarrios/calculadora-expressiones-draw#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  }
+}
