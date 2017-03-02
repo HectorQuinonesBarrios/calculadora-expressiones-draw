@@ -1,13 +1,13 @@
 var express = require('express');
 var app = express();
 
-app.get('/', (req, res) => {
+app.get('/', (req, res, next) => {
 
     res.send('Mande una expresion en la url');
     res.end();
 });
 
-app.get('/:id', (req, res) => {
+app.get('/:id', (req, res, next) => {
   var expresion = req.params.id;
 
   try {
